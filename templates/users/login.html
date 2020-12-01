@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<header>
+    <h1>Login</h1>
+</header>
+<section class="login-form">
+    <form method="post">
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" id="email" name="email" placeholder="username@domain.com"
+                aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">
+                Enter your email
+            </small>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="text" class="form-control" id="password" name="password">
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+</section>
+{% endblock %}
