@@ -4,6 +4,6 @@ This program sends alerts to users via email.
 The admin can make the following changes:
     1. add stores
     2. add items
-    
+    screenshots : https://github.com/deeksha000/pricing_alert/blob/main/pp_screenshot.docx
     
     
